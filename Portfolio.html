@@ -6,37 +6,110 @@
   <title>K K Madhumitha | Portfolio</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap">
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: 'Inter', sans-serif;
-      background: linear-gradient(to bottom right, #f0f9ff, #e0f2fe);
-      color: #1e293b;
-      line-height: 1.6;
-      padding: 20px;
-    }
-    header, footer {
-      text-align: center;
-      padding: 20px 0;
-    }
-    h1 { font-size: 2.5rem; font-weight: 800; }
-    h2 { font-size: 2rem; margin-bottom: 10px; border-bottom: 2px solid #38bdf8; display: inline-block; }
-    section { margin: 40px 0; }
-    .contact a { margin: 0 10px; text-decoration: none; color: #0284c7; }
-    .card {
-      background: white;
-      border-radius: 10px;
-      padding: 20px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-      margin-bottom: 20px;
-      transition: transform 0.2s ease;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-    }
-    @media (min-width: 768px) {
-      .container { max-width: 960px; margin: auto; }
-    }
-  </style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #0f172a, #1e293b);
+    color: #f1f5f9;
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #7dd3fc;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: #e2e8f0;
+    border-bottom: 2px solid #38bdf8;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  header, footer {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .contact a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #94a3b8;
+    font-weight: 500;
+  }
+
+  .section {
+    max-width: 960px;
+    margin: 0 auto 60px;
+  }
+
+  .card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.02);
+  }
+
+  .card h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #7dd3fc;
+    margin-bottom: 8px;
+  }
+
+  .card p {
+    color: #cbd5e1;
+  }
+
+  ul {
+  margin-top: 12px;
+  padding-left: 24px;
+}
+section h2 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #38bdf8;
+  color: #e2e8f0;
+}
+
+  section p, li {
+  font-size: 1rem;
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
+  footer p {
+    font-size: 0.875rem;
+    color: #64748b;
+  }
+
+  a {
+    color: #38bdf8;
+  }
+
+  .card ul li::marker {
+  color: #7dd3fc;
+}
+</style>
+
 </head>
 <body>
   <div class="container">
@@ -54,35 +127,49 @@
       <h2>Projects</h2>
 
       <div class="card">
-        <h3>🔬 Coral Reef Health Classification</h3>
+        <h3>Coral Reef Health Classification</h3>
         <p>Developed a supervised ML pipeline using Scikit-learn to classify coral reef health from image data. Performed image preprocessing, dimensionality reduction using PCA, and hyperparameter tuning with grid search. Evaluated using accuracy, precision, and F1-score.</p>
       </div>
 
       <div class="card">
-        <h3>💬 AI Chatbot for Student Depression Detection</h3>
+        <h3>AI Chatbot for Student Depression Detection</h3>
         <p>Created a Flask-based system where students fill forms to assess their mental health. The backend uses trained ML models while the chatbot responds using rule-based NLP logic to provide personalized interaction and support.</p>
       </div>
 
       <div class="card">
-        <h3>🥗 Diet Recommendation Web App</h3>
+        <h3>Diet Recommendation Web App</h3>
         <p>Built a full-stack React-based application that accepts PDF blood reports or dynamic form inputs to suggest personalized diet plans. Used JavaScript parsing libraries to extract data and a logic-matching engine for recommendations.</p>
       </div>
 
       <div class="card">
-        <h3>🚦 Arduino Traffic Light Controller</h3>
+        <h3>Arduino Traffic Light Controller</h3>
         <p>Designed and simulated a 4-way traffic control system using Arduino UNO and LEDs. Implemented finite state machine logic with `millis()` for non-blocking, real-time signal transitions, imitating actual urban traffic behavior efficiently.</p>
       </div>
     </section>
 
     <section>
       <h2>Certifications</h2>
-      <p>🎓 Generative AI - HCL GUVI (May 2025) — <a href="https://www.guvi.in/verify-certificate?id=Nb71DHu5n37X0457G7" target="_blank">View Certificate</a></p>
+      <p><span style="font-weight:600;">Certification:</span> Generative AI - HCL GUVI (May 2025) — <a href="https://www.guvi.in/verify-certificate?id=Nb71DHu5n37X0457G7" target="_blank">View Certificate</a></p>
     </section>
 
     <section>
       <h2>Volunteering</h2>
-      <p>🌟 <strong>VITEACH Club, VIT Chennai</strong>: Core team member since March 2025. Mentored underprivileged students online in Scratch programming, helping them build interactive projects and games. Recognized for leadership and initiative.</p>
+      <p><strong>VITEACH Club, VIT Chennai</strong>: Core team member since March 2025. Mentored underprivileged students online in Scratch programming, helping them build interactive projects and games. Recognized for leadership and initiative.</p>
     </section>
+
+    <section>
+  <h2>Technical Skills</h2>
+  <div class="card">
+    <ul style="list-style: square; padding-left: 20px;">
+      <li><strong>Programming Languages:</strong> Python, Java, C/C++</li>
+      <li><strong>Web Development:</strong> HTML, CSS, JavaScript, ReactJS</li>
+      <li><strong>Tools & Frameworks:</strong> Flask, Arduino, Scikit-learn</li>
+      <li><strong>AI & ML:</strong> Pandas, Matplotlib, Basic NLP</li>
+      <li><strong>Version Control:</strong> Git, GitHub</li>
+    </ul>
+  </div>
+</section>
+
 
     <footer>
       <p>© 2025 K K Madhumitha • Built with 💙</p>

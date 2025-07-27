@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>K K Madhumitha | Portfolio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom right, #f0f9ff, #e0f2fe);
+      color: #1e293b;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    header, footer {
+      text-align: center;
+      padding: 20px 0;
+    }
+    h1 { font-size: 2.5rem; font-weight: 800; }
+    h2 { font-size: 2rem; margin-bottom: 10px; border-bottom: 2px solid #38bdf8; display: inline-block; }
+    section { margin: 40px 0; }
+    .contact a { margin: 0 10px; text-decoration: none; color: #0284c7; }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      margin-bottom: 20px;
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    @media (min-width: 768px) {
+      .container { max-width: 960px; margin: auto; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>K K Madhumitha</h1>
+      <p>B.Tech, VIT Chennai (Expected 2027) • CGPA: 8.27</p>
+      <div class="contact">
+        <a href="mailto:madhumithakk1504@gmail.com">Email</a> |
+        <a href="https://github.com/madhumithakk01" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/madhumitha-k-k-35458228a/" target="_blank">LinkedIn</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Projects</h2>
+
+      <div class="card">
+        <h3>🔬 Coral Reef Health Classification</h3>
+        <p>Developed a supervised ML pipeline using Scikit-learn to classify coral reef health from image data. Performed image preprocessing, dimensionality reduction using PCA, and hyperparameter tuning with grid search. Evaluated using accuracy, precision, and F1-score.</p>
+      </div>
+
+      <div class="card">
+        <h3>💬 AI Chatbot for Student Depression Detection</h3>
+        <p>Created a Flask-based system where students fill forms to assess their mental health. The backend uses trained ML models while the chatbot responds using rule-based NLP logic to provide personalized interaction and support.</p>
+      </div>
+
+      <div class="card">
+        <h3>🥗 Diet Recommendation Web App</h3>
+        <p>Built a full-stack React-based application that accepts PDF blood reports or dynamic form inputs to suggest personalized diet plans. Used JavaScript parsing libraries to extract data and a logic-matching engine for recommendations.</p>
+      </div>
+
+      <div class="card">
+        <h3>🚦 Arduino Traffic Light Controller</h3>
+        <p>Designed and simulated a 4-way traffic control system using Arduino UNO and LEDs. Implemented finite state machine logic with `millis()` for non-blocking, real-time signal transitions, imitating actual urban traffic behavior efficiently.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <p>🎓 Generative AI - HCL GUVI (May 2025) — <a href="https://www.guvi.in/verify-certificate?id=Nb71DHu5n37X0457G7" target="_blank">View Certificate</a></p>
+    </section>
+
+    <section>
+      <h2>Volunteering</h2>
+      <p>🌟 <strong>VITEACH Club, VIT Chennai</strong>: Core team member since March 2025. Mentored underprivileged students online in Scratch programming, helping them build interactive projects and games. Recognized for leadership and initiative.</p>
+    </section>
+
+    <footer>
+      <p>© 2025 K K Madhumitha • Built with 💙</p>
+    </footer>
+  </div>
+</body>
+</html>
